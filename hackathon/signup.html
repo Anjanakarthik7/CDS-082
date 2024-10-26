@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background:url(background.jpeg) no-repeat;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+        }
+        #maindiv{
+            background-color: rgba(248, 244, 244, 0.486);
+            width:30% ;
+            border-radius: 10px;
+            margin-left: 35%;
+            font-size: 30px;
+        }
+        h1{
+            text-align: center;
+        }
+        form{
+            padding:40px;
+            text-align: left;
+        }
+        label{
+            display:block;
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            color:black;
+
+        }
+        input[type="text"], input[type="email"], input[type="password"], input[type="search"], select{
+            width:100%;
+            height:40px;
+            margin:2px;
+
+        }
+        textarea{
+            width:100%;
+
+        }
+        input[type="submit"]{
+            background-color:rgb(61, 209, 41);
+            color:aliceblue;
+            font-weight: bold;
+            padding:10px;
+            width:100%;
+            border-radius: 10px;
+        }
+        input[type="submit"]:hover{
+            background-color: red;
+            transform: scale(1.05);
+            cursor:pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="maindiv">
+        <h1>sign up</h1>
+            <form action="abc.pws" method="post">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" placeholder="Full Name"> 
+                <br><br>
+
+
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <br><br>
+
+
+                <label for="password">Password: </label>
+                <input type="password" 
+                name="password" id="password"
+                placeholder="password">
+                <br><br>
+
+
+                <label for="gender">Gender: </label>
+                <select name="gender" id="gender">
+                    <option value="select">Select</option>
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                </select>
+                
+                <br><br>
+
+                <label for="input">place:</label>
+                
+
+                <label for="bio">Bio:</label>
+                <textarea name="bio" id="bio" cols="20" rows="5"></textarea>
+                <br><br>
+
+
+                <input type="submit" value="Submit Form">
+            </form>
+    </div>
+</body>
+</html>

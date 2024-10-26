@@ -1,0 +1,57 @@
+#main{
+   
+    padding: 10px;
+    height: 50%;
+    display: flex;
+    margin-left:30% ; 
+  
+}
+footer{
+    background-color: rgba(197, 249, 7, 0.515);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+#farmer{
+    transition: backround-color 0.3s,transform 0.3s;
+    width: 305px;
+    padding: 10px;
+    text-align: center;
+   
+}
+#farmer:hover{ background-color: rgba(29, 252, 36, 0.189);
+    transform: scale(1.1);
+
+}
+#customer{
+    transition: backround-color 0.3s,transform 0.3s;
+    width: 305px;
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+#customer:hover{ background-color: rgba(186, 238, 16, 0.219);
+    transform: scale(1.1);
+
+
+}
+a{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+
+}
+header{
+    background-color: rgba(25, 243, 87, 0.527);
+    text-align: center;
+    height: 170PX;
+    padding: 10px;
+   
+
+}
+body{background-image: url(AGRI\ CONNECT\ \(2\).png) ;
+background-repeat: no-repeat;
+background-size: cover;}
+div{
+    display: inline-block;
+}

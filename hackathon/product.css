@@ -1,0 +1,60 @@
+header{
+    
+    top:0;
+    left:0; right:0;
+    z-index: 1000;
+    background:linear-gradient(120deg, rgb(108, 173, 102),rgb(41, 216, 25));
+    padding:24px 9%;
+    box-shadow: 8px 16px rgba(0,0,0,.1);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    font-weight:bolder;
+    font-size:40px;
+    
+    text-decoration: none;
+
+}
+
+header .logo span{
+    color:black;
+
+}
+
+header .navbar a{
+    color:white;
+    font-size:32px;
+    padding:0 25px;
+    text-decoration: none;
+
+}
+
+header .navbar a:hover{
+    color:rgb(230, 226, 35);
+
+}
+
+.product:hover{ background-color: rgba(29, 252, 36, 0.189);
+    transform: scale(1.1);}
+    .product{ 
+        background-color: aqua;
+        height: 420px;
+        width: 300px;
+     border-radius: 10px;
+     text-align: center;
+     margin: 20px;
+     transition: backround-color 0.3s,transform 0.3s;
+     padding-top: 10px;
+     
+     
+        
+     
+     }
+     div{
+        display:inline-table;
+        display: 
+     }
+

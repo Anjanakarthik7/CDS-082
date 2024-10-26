@@ -1,0 +1,108 @@
+
+    
+
+header{
+    position:fixed;
+    top:0;
+    left:0; right:0;
+    z-index: 1000;
+    background:linear-gradient(120deg, rgb(108, 173, 102),rgb(41, 216, 25));
+    padding:24px 9%;
+    box-shadow: 8px 16px rgba(0,0,0,.1);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    font-weight:bolder;
+    font-size:40px;
+    color:#272525;
+    text-decoration: none;
+
+}
+
+header .logo span{
+    color:black;
+
+}
+
+header .navbar a{
+    color:white;
+    font-size:32px;
+    padding:0 25px;
+    text-decoration: none;
+
+}
+
+header .navbar a:hover{
+    color:rgb(230, 226, 35);
+
+}
+.home{
+    min-height:100vh;
+    background:url(background.jpeg) no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.home form{
+    margin-top: 170px;
+    background:#ffffff7e;
+    border-radius:8px;
+    box-shadow: 8px 16px rgb(68, 66, 66);
+    border:1.6px solid  rgb(68, 66, 66);
+    width:70rem;
+    padding:32px;
+}
+
+.home form{
+    text-align: center;
+    color:black;
+    font-size:48px;
+
+}
+
+.home form .buttons-container{
+    display:flex;
+    gap:24px;
+
+}
+
+.home form .buttons-container .btn{
+    flex:1;
+}
+
+.home form .inputBox{
+    display:flex;
+    flex-wrap: wrap;
+    gap:24px;
+    margin-top: 32px;
+}
+
+.home form .inputBox input,
+.home form .inputBox select{
+    flex:1 1 25rem;
+    border:1.6px solid grey;
+    font-size: 24px;
+    padding:16px;
+    text-transform:none;
+}
+input[type="submit"]{
+    background-color:rgb(61, 209, 41);
+    color:aliceblue;
+    font-weight: bold;
+    padding:10px;
+    width:100%;
+    border-radius: 10px;
+}
+input[type="submit"]:hover{
+    background-color: red;
+    transform: scale(1.05);
+    cursor:pointer;
+}
